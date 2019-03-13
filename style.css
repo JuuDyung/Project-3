@@ -61,15 +61,26 @@ body{
   text-align: left;
 }
 .title{
-  border: 2px solid RosyBrown;
+  text-decoration: underline;
+  box-shadow: 10px 10px 5px grey;
+  border-width:2px;
+  border-style:solid;
+  border-color: #BC8F8F;
   font-family: 'Srisakdi';
 }
 .index{
+  outline-style: double;
+  outline-color: RosyBrown;
+  border-radius: 5px;
+  font-style:italic;
   text-align: center;
-  background-color: RosyBrown;
+  border-left: 15px solid RosyBrown;
+  background-color: lightgrey;
+  border-right: 15px solid RosyBrown;
   font-family: 'Roboto';
 }
 .name{
+  text-transform: capitalize;
   text-align: center;
   font-family: 'Sniglet';
   border: 6px solid RosyBrown;
@@ -78,14 +89,17 @@ body{
   border-bottom-style: dotted;
   border-left-style: solid;  
 }
-.background{
-  background-color: #FFE4E1;
-}
 .home{
+  outline-style: dashed;
+  outline-color: RosyBrown;
+  margin: 15px 20px 55px;
+  word-wrap: break-word;
+  text-shadow: 0 0 3px #BC8F8F;
   font-family: 'Poppins';
   text-align: left;
-  border: 4px solid RosyBrown;
-  border-radius: 5px;
+}
+.background{
+  background-color: #FFE4E1;
 }
 .image{
   width: 75%;
