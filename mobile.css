@@ -52,6 +52,12 @@
   .pagename{
     height: 90%;
     line-height: 90%;
+    margin: auto;
+    text-align: justify;
+    text-decoration: overline;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-shadow: 3px 2px lightgrey;
   }
   
 }
